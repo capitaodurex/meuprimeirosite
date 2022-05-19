@@ -1,6 +1,14 @@
 body{
     background-color: #00FFFF;
 }
+
+.menu{
+    background-color: rgba(176, 196, 222, 0.6);
+    text-align: center;
+    
+    (176,196,222)
+
+}
 p{
     color: #00008B;
     font-size: 2em;
