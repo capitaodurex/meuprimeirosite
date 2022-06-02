@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     background-color: #00FFFF;
 }
@@ -11,6 +16,7 @@ body{
 
 }
 
+
 section{
   margin-top: 2%;
   margin-bottom: 2%;
@@ -19,9 +25,13 @@ section{
 p{
     color: #00008B;
     font-size: 2em;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-align: justify;
 }
 h1,h2{
     color: #2F4F4F;
+    text-align: center;
 }
 figure{
     text-align: center;
@@ -38,3 +48,58 @@ figure{
 .img_corpo{
     width: 60%;
 }
+
+.itens_Menu a:hover{
+    background-color: rgba(9, 7, 6, 0.4);
+    padding: 0.1%;
+  }
+  
+  .itens_Menu a:active{
+    color: black;
+  }
+
+  a:link {
+      color: azure;
+  }
+
+  a:visited {
+      color: #00008B;
+  }
+
+  a:hover {
+      color: #2F4F4F;
+  }
+
+  #mais a:link, #mais a:visited {
+    color: #FFDEAD;
+  }
+  
+  #mais a:hover{
+    color: black ;
+  }
+
+
+
+  
+
+  .botao{
+      margin: 1%;
+      width: 100px;
+      height: 30px;
+      padding: 2%;
+      background-color: #00FFFF;
+      margin: auto;
+  }
+
+  .botao:hover{
+      background-color: aqua;
+  }
+
+  .botao a:link, .botao a:visited{
+      font-weight: bolder;
+      color: #00008B;
+      text-decoration: wavy;
+  }
+  .botao p{
+      text-align: center;
+  }
