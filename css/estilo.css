@@ -122,3 +122,16 @@ figure{
     width: 30%;
     margin-left: 2%;
 }
+
+table {
+    width: 100%;
+    border-color: rgba(230, 230, 230, 0.966);;
+    
+  }
+
+  table, th, td {
+    border: 1px solid;
+    color: rgba(230, 230, 230, 0.966);;
+    width: 60%;
+    text-align: center;
+  }
