@@ -14,13 +14,11 @@ body{
 
 
 header{
-   
-    padding: 2%;
+    padding: 3%;
     font-family: 'Patua One', cursive;
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 0;
 }
 
 .fixo{
@@ -28,23 +26,17 @@ header{
     position: fixed;
     width: 100%;
     z-index: 1000;
-
-
+    top: 0;
 }
 
-.menu{
-    background-color: rgba(49, 119, 177, 0.678);
+.itens_menu{
     text-align: center;
-   
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-
-  font-family: 'Patua One', cursive;
 }
 
+.itens_menu ul li{
+    font-size: 1.2em;
+    text-decoration: none;
+}
 
 section{
   margin-top: 2%;
@@ -110,17 +102,7 @@ figure{
   }
 
 
-  .itens_menu{
-    position: absolute;
-    right: 6%;
-    top: 45%;
-    width: 70%;
-}
 
-.itens_menu ul li{
-    display: inline;
-    margin-left: 1%;
-}
   
 
   .botao{
@@ -171,16 +153,19 @@ table {
   }
 
   .logo{
-      text-align: center;
+      text-align: left;
       margin-left: 5%;
+      width: 30%;
   }
 
   .img_logo{
-      width: 20%;
+      width: 50%;
       display: flex;
       flex-direction: right;
       
   }
+
+
 
  
 
@@ -192,7 +177,30 @@ table {
         width: 95%;
         margin-top: 0;
       }    
-  }
+      .logo{
+        text-align: center;
+        
+    }
+
+    .img_logo{
+        width: 20%;
+    }
+
+
+    .banner{
+        margin-top: 40%;
+    }
+
+    .descer{
+        margin-top: 50%;
+    }
+
+      }
+      
+  
+
+
+
 
   @media screen and (min-width:601px) {
 
@@ -202,10 +210,36 @@ table {
 
     }
 
-    .descer {
+    .itens_menu{
+        position: absolute;
+        right: 4%;      
+        width: 70%;
+    }
+
+    .itens_menu ul li{
+        display: inline;
+        padding: 3%;
+        margin-left: 1%;
+    }
+    .img_logo{
+        width: 30%;
+    }
+
+    .logo{
+        width: 40%;
+        text-align: left;
+    }
+
+    .banner{
+        margin-top: 11.4%;
+    }
+
+    .descer{
         margin-top: 10%;
     }
 
+
+  
 
 
   }
