@@ -4,109 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\reset.css">
     <link rel="stylesheet" href="css\estilo.css">
     <title>ATAC</title>
     <link rel="shortcut icon" href="img/cavalo.png" type="">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet"> 
     
 
     <body> 
-                <header class="fixo">
-                        <div class="logo">
-                            <img class="img_logo" src="img/logomaneira.png" alt=""> 
-                        </div>
-            
-                        <nav class="itens_menu">
-                            <ul>
-                                <li><a href="#paragrafos">Parágrafos</a></li>
-                                <li><a href="#feitos">Alguns de seus feitos</a></li>
-                                <li><a href="fabroggers.html">Fabroggers</a></li>
-                                <li><a href="contato.html">Contato</a></li>
-                                <li><a href="rpg.html">RPG</a></li> 
-                            </ul>
-                        </nav>
-            
-                </header>
+        <header class="fixo">
+            <div class="logo">
+                <img class="img_logo" src="img/logomaneira.png" alt=""> 
+            </div>
+    
+            <nav class="itens_menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="testecss.html">Teste CSS</a></li>
+                    <li><a href="fabroggers.html">Fabroggers</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="rpg.html">RPG</a></li> 
+                </ul>
+            </nav>
+    
+        </header>
+
+
+        
+    
             
         <div class="container_descer">
             <section> 
                 <div class="form">
-                    <form action="#">
-                        <div class="row"> 
-                            <div class="col-25"> 
-                                <label for="#">Nome</label>
+                    <h1 class="hum"> Entre em contato com os Suportes!</h1>
+                    <form>
+                        <div class="row">
+                            <div class="col-25">
+                                <label>Digite seu nome: </label>
                             </div>
                             <div class="col-75">
-                                <input type="text" name="#" id="#">
+                            <input type="text" name="Nome"required placeholder="Nome (Completo)" />
                             </div>
                         </div>
-
-                        <div class="row"> 
-                            <div class="col-25"> 
-                                <label for="#">Sobrenome</label>
+                        <div class="row">
+                            <div class="col-25">
+                                <label>Telefone: </label>
                             </div>
                             <div class="col-75">
-                                <input type="text" name="#" id="#">
+                                <input type="tel" name="Telefone"required placeholder="(00) 0000-0000" />
                             </div>
                         </div>
-
-                        <div class="row"> 
-                            <div class="col-25"> 
-                                <label for="#">Idade</label>
+                        <div class="row">
+                            <div class="col-25">
+                                <label> E-mail</label>
                             </div>
                             <div class="col-75">
-                                <input type="text" name="#" id="#">
+                                <input type="email" name="Email"required placeholder="seuemail@gmail.com.br" />
                             </div>
                         </div>
-
-                        <div class="row"> 
-                            <div class="col-25"> 
-                                <label for="#">Data</label>
+                        <div class="row">
+                            <div class="col-25">
+                                <label> Menssagem</label>
                             </div>
                             <div class="col-75">
-                                <input type="date" name="#" id="#">
+                                <textarea name="Mensagem" rows="10" cols="30">
+                                </textarea>
                             </div>
                         </div>
-
-                        <div class="row"> 
-                            <div class="col-25"> 
-                                <label for="#">i</label>
-                            </div>
-                            <div class="col-75">
-                                <input type="checkbox" name="#" id="#">
-                            </div>
-                        </div>
-
-                        <div class="row"> 
-                            <div class="col-25"> 
-                                <label for="#">Número de Telefone</label>
-                            </div>
-                            <div class="col-75">
-                                <input type="text" name="#" id="#">
-                            </div>
-                        </div>
-
-                        <div class="row"> 
-                            <div class="col-25"> 
-                                <label for="#">E-mail</label>
-                            </div>
-                            <div class="col-75">
-                                <input type="email" name="#" id="#">
-                            </div>
-                        </div>
-
-                        <div class="row"> 
-                            <div class="col-25"> 
-                                <label for="#">Senha</label>
-                            </div>
-                            <div class="col-75">
-                                <input type="password" name="#" id="#">
-                            </div>
+                        <div class="row">
+                            <input type="submit" value="Enviar:">
                         </div>
                     </form>
                 </div>
             </section>
         </div>
 
+        <footer  class="footer">
+            <p style="border: 0em; font-size: 1em; text-align: center; margin-top: 1.5%;"> Criado por Luciano (capitão durex)</p>
+        </footer>
 
     
        
